@@ -1,56 +1,41 @@
 # Electrical Grid Infographic
 
-## Project Description
+## Project Overview
 
-This project is a basic static infographic providing an overview of the electrical grid, its major components (Generation, Transmission, Distribution), key operating entities (Generators, Transmission & Distribution Utilities, ISOs/RTOs, Retail Providers, Regulators, Consumers), and a distinction between regulated and deregulated market structures in the U.S.
+This project presents a simple, static infographic designed to explain the key components, entities, and market structures of the electrical grid. It serves as a clear and accessible visual aid for understanding how electricity is generated, transmitted, distributed, and managed.
 
-The infographic is built using simple HTML and styled with Tailwind CSS for a clean and responsive design.
+![Electrical Grid Infographic Screenshot](images/electrical_grid_infographic.png)
 
-## Getting Started
+## Viewing the Infographic
 
-Follow these steps to get the project up and running on your local machine:
+The easiest way to view the infographic is by opening the `index.html` file in a web browser.
 
-1.  **Clone the repository:**
+Alternatively, for a more production-like viewing experience, you can run a simple local web server:
 
+1.  **Ensure Node.js is installed.** If not, you can download it from [nodejs.org](https://nodejs.org/).
+2.  **Open your terminal or command prompt.**
+3.  **Navigate to the project folder.**
+4.  **Install project dependencies (if this is your first time running it):**
 
-`bash git clone [https://github.com/gradyas/onboarding](https://github.com/gradyas/onboarding)`
+bash
 
+- `npm install`
 
-2.  **Navigate to the project directory:**
-
-
-bash `cd <onboarding>`
-
-3.  **Install dependencies:**
-
-    This project uses npm to manage dependencies (specifically, the `serve` package for local hosting).
+5.  **Start the local server:**
 
 
-bash `npm install`
+bash 
 
-4.  **Start the development server:**
+- `npm start`
 
-    This will start a local web server using the `serve` package to host your static files.
+6.  **Open your web browser** and go to the address provided in the terminal output (typically `http://localhost:3000`).
 
+## Technology Used
 
-bash `npm start`
+*   **HTML:** For the structure and content of the infographic.
+*   **Tailwind CSS:** A utility-first CSS framework used for styling and layout.
+*   **Node.js & npm:** Used to run a simple local web server for viewing the static site.
 
-5.  **View the infographic:**
+## Project Files
 
-    Open your web browser and go to the address provided in the terminal output (usually `http://localhost:3000`).
-
-## Project Structure
-
--   `index.html`: The main HTML file containing the infographic content and structure.
--   `src/`: Directory containing project assets, including the image used in the infographic (`electricity_transmission_generation.jpg`).
--   `package.json`: Manages project dependencies and defines the `start` script.
--   `package-lock.json`: Records the exact versions of installed dependencies.
--   `.gitignore`: Specifies files and directories to be ignored by Git (includes `node_modules`).
--   `.idx/dev.nix`: Configuration file for the development environment (used by IDX).
-
-
-## Notes
-
--   This project uses the Tailwind CSS CDN for simplicity during development. For a production deployment, it is recommended to use a build process (like PostCSS or the Tailwind CLI) to optimize and purge unused CSS. Refer to the [Tailwind CSS Installation Guide](https://tailwindcss.com/docs/installation) for more information.
-
-
+The main infographic content is in `index.html`. The image used in the infographic is located in the `src/` folder. Project configuration and dependencies are managed in `package.json` and `package-lock.json`. The screenshot for this README is in the `src/` folder.
