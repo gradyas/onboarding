@@ -1,0 +1,31 @@
+{
+  "name": "onboarding",
+  "version": "1.0.0",
+  "description": "grid onboarding reference for clean energy integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gradyas/onboarding.git"
+  },
+  "keywords": [
+    "clean",
+    "energy",
+    "battery",
+    "grid",
+    "climate",
+    "resiliance"
+  ],
+  "author": "asia grady",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gradyas/onboarding/issues"
+  },
+  "homepage": "https://github.com/gradyas/onboarding#readme",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
