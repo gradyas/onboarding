@@ -4,7 +4,7 @@
 
 This project presents a simple, static infographic designed to explain the key components, entities, and market structures of the electrical grid. It serves as a clear and accessible visual aid for understanding how electricity is generated, transmitted, distributed, and managed.
 
-![Electrical Grid Infographic Screenshot](images/electrical_grid_infographic.png)
+![Electrical Grid Infographic Screenshot](src/electrical_grid_infographic.png)
 
 ## Viewing the Infographic
 
