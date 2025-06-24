@@ -52,3 +52,6 @@ export default tseslint.config({
   },
 })
 ```
+=======
+# electrical-grid-infographic
+>>>>>>> 914fdf50f6114077201167886fa6c97deb2629db
