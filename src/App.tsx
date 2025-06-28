@@ -4,11 +4,15 @@ import GridComponentCard from './components/GridComponentCard';
 import GridEntityCard from './components/GridEntityCard';
 import MarketTypeCard from './components/MarketTypeCard';
 import StateListCard from './components/StateListCard';
+import InterconnectionCard from './components/InterconnectionCard'; // Import the new component
+
 import {
   GRID_COMPONENTS_DATA,
   KEY_ENTITIES_DATA,
   MARKET_TYPES_DATA,
   STATE_MARKET_STATUSES_DATA,
+    GRID_INTERCONNECTIONS_DATA,
+
 } from './data';
 
 function App() {
@@ -57,6 +61,16 @@ function App() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
         {MARKET_TYPES_DATA.map((marketType, index) => (
           <MarketTypeCard key={index} data={marketType} />
+        ))}
+      </div>
+
+    {/* NEW: Major Grid Interconnections Section */}
+      <h2 className="text-3xl md:text-4xl font-extrabold text-center text-gray-800 mb-8 mt-12 leading-tight">
+        Major U.S. Grid Interconnections
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        {GRID_INTERCONNECTIONS_DATA.map((interconnection, index) => (
+          <InterconnectionCard key={index} data={interconnection} />
         ))}
       </div>
 
